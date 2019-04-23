@@ -37,6 +37,14 @@
   version = "v3.2.0"
 
 [[projects]]
+  digest = "1:a2c6c019bfada4e384fa49df706e61ca4c693ddd29802721a0ca6ed6fa7f796b"
+  name = "github.com/erickmendonca/ghinstallation"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "6d29d274bccc0726052e17fb3636f246974311f4"
+  version = "v0.1.3"
+
+[[projects]]
   digest = "1:f4f203acd8b11b8747bdcd91696a01dbc95ccb9e2ca2db6abf81c3a4f5e950ce"
   name = "github.com/google/go-github"
   packages = ["github"]
@@ -73,6 +81,14 @@
   ]
   pruneopts = "NUT"
   revision = "0561b0583746f5a1dfa575bed73ba6d18243d73b"
+
+[[projects]]
+  branch = "develop"
+  digest = "1:630fd596c926c094f1bd904cefb5a80497e169df35635356239ad709f76f2af9"
+  name = "github.com/palantir/go-githubapp"
+  packages = ["githubapp"]
+  pruneopts = "NUT"
+  revision = "a3a32b23c2f767a61fccfcf51f334cb66c3f37ac"
 
 [[projects]]
   digest = "1:5cf3f025cbee5951a4ee961de067c8a89fc95a5adabead774f82822efabab121"
@@ -209,10 +225,11 @@
   analyzer-version = 1
   input-imports = [
     "github.com/alexedwards/scs",
-    "github.com/bradleyfalzon/ghinstallation",
+    "github.com/erickmendonca/ghinstallation",
     "github.com/google/go-github/github",
     "github.com/hashicorp/golang-lru",
     "github.com/palantir/go-baseapp/baseapp",
+    "github.com/palantir/go-githubapp/githubapp",
     "github.com/pkg/errors",
     "github.com/rcrowley/go-metrics",
     "github.com/rs/zerolog",

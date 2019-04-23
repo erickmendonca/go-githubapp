@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/bradleyfalzon/ghinstallation"
+	"github.com/erickmendonca/ghinstallation"
 	"github.com/google/go-github/github"
 	"github.com/pkg/errors"
 	"github.com/shurcooL/githubv4"
